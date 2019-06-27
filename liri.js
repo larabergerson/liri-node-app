@@ -88,7 +88,7 @@ function songInfo(){
             console.log("\n-----------------");
             console.log("Artist: " + response.tracks.items[0].artists[0].name);
             console.log("Song: " + response.tracks.items[0].name);
-            console.log("URL: " + response.tracks.items[0].preview_url);
+            console.log("URL: " + response.tracks.items[0].external_urls.spotify);
             console.log("Album: " + response.tracks.items[0].album.name);
             console.log("\n-----------------");
         });

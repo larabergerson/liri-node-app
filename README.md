@@ -9,3 +9,10 @@ Bootcamp Node HW
 7. State your role in the app development
 
 
+I will have to come back to this...
+
+
+/Users/larabergerson/Desktop/liri-node-app/screenshots/Screen Shot 2019-06-26 at 9.57.02 PM.png
+/Users/larabergerson/Desktop/liri-node-app/screenshots/Screen Shot 2019-06-26 at 9.57.46 PM.png
+/Users/larabergerson/Desktop/liri-node-app/screenshots/Screen Shot 2019-06-26 at 9.58.17 PM.png
+/Users/larabergerson/Desktop/liri-node-app/screenshots/Screen Shot 2019-06-26 at 9.58.45 PM.png
