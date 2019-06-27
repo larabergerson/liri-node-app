@@ -22,18 +22,18 @@ switch(inputOption) {
     songInfo();
     // default: "The Sign";
     break;
-
+    
     case "movie-this": 
     movieInfo();
     // default: "Mr. Nobody";
     break;
-    
+
     case "do-what-it-says": 
     doWhatInfo();
     break;
 };
 
-console.log(userInput);
+// console.log(userInput);
 // Function for concert info
 // * Name of the venue
 // * Venue location
@@ -50,7 +50,7 @@ function artistInfo (){
     };
 
 var queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-  console.log(queryUrl);
+//   console.log(queryUrl);
 // bands in town first
 axios.get(queryUrl).then(function(response)
  {
@@ -93,12 +93,13 @@ function songInfo(){
             console.log("\n-----------------");
         });
        
-};
+}
+
 function movieInfo(){
     var movie = "";
     for (var i = 3; i < userInput.length; i++){
         if (i > 3 && i < userInput.length){
-            movie = movie + userInput[i];
+            movie = movie + "+" + userInput[i];
         }
         else{
             movie += userInput[i];
@@ -120,7 +121,7 @@ function movieInfo(){
               
           });
   };
-// Console Data:
+// Console Data for reference:
 // Title of the movie.
 // * Year the movie came out.
 // * IMDB Rating of the movie.
